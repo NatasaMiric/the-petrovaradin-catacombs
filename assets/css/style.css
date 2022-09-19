@@ -9,5 +9,20 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    color:#180b03;
+}
+
+/* heading and logo */
+
+h1,
+h2 {
+    font-family: Merriweather, serif;
+    letter-spacing: 2px;
+    color: #b48850;
+}
+
+#logo {
+    text-align: center;
+    padding-top: 0.5rem;
 }
 
