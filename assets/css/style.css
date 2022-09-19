@@ -10,6 +10,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color:#180b03;
+    background-color: #180b03;
 }
 
 /* heading and logo */
@@ -36,7 +37,7 @@ h2 {
     font-size: 110%;
     letter-spacing: 2px;
     padding-top: 1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
 }
 
 a:link {
@@ -84,3 +85,29 @@ a:link {
     padding-bottom: 0.5em;
     text-transform: capitalize;    
 }
+
+/* about section */
+
+.about-header {
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.about-items {
+    width: 350px;
+    margin: 30px;
+    min-height: 200px;
+    text-align: justify;
+    line-height: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 2em;
+}
+
