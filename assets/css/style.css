@@ -26,3 +26,32 @@ h2 {
     padding-top: 0.5rem;
 }
 
+/* navigation links */
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    font-size: 110%;
+    letter-spacing: 2px;
+    padding-top: 1em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav-list a {
+    color: #b48850;
+}
+
+.nav-list a:hover {
+    color: #180b03;
+    background-color: #b48850;
+}
+
+.active {
+    color: #180b03;
+    background-color: #59aeaa;
+}
