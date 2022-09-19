@@ -156,6 +156,7 @@ img {
     width: 200px; 
     margin-bottom: 2rem;
     text-align: center; 
+    line-height: 1.8em;
     background-color: #b48850; 
     border-radius: 25px;
     padding: 2rem;  
