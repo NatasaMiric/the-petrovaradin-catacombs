@@ -162,3 +162,24 @@ img {
     flex-grow: 1;
     flex-shrink: 1;            
 }
+
+/* footer */
+
+footer{
+    height:100px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 1rem;
+    padding: 1rem;
+    color: #ffffff;
+}
