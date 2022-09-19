@@ -75,8 +75,24 @@ The colors are chosen based on the most present colors on the images that are us
 * Merriweather is used for headings on the site. It is a serif font.
 * Roboto is used for the body text on the site. It is a sans-serif font. 
 ### Wireframes
+
+Wireframes were created for desktop and mobile. 
+
+[Desktop Wireframe](docs/wireframes/desktopwireframe.png)
+
+
+[Mobile Wireframe](docs/wireframes/mobilewireframe.png)
+
+
 ## Features
 ### Existing features
+* Navigation Bar
+* The Landing Page Image
+* About Section
+* Tour Guide Section
+* The Footer
+* Gallery page
+* Contact page
 ### Future Implementations
 ### Accessibility
 
