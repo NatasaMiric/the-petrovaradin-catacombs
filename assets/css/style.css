@@ -74,8 +74,7 @@ a:link {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;  
     text-align: center;
     border: 3px solid #3f668b;
 }
@@ -122,8 +121,8 @@ a:link {
     display: flex;
     align-items: center;
     justify-content: center;    
-    gap: 2.5rem;   
-    flex-wrap: wrap;     
+    gap: 2.5em;   
+    flex-wrap: wrap;   
     
 }
 
@@ -135,7 +134,7 @@ a:link {
 
 .tg-items {
     width: 400px;
-    margin: 10px;    
+    min-height: auto;   
     line-height: 1.5rem;  
      
 }
@@ -154,12 +153,12 @@ img {
 
 .tg-text {       
     width: 200px; 
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;    
     text-align: center; 
     line-height: 1.8em;
     background-color: #b48850; 
     border-radius: 25px;
     padding: 2rem;  
     flex-grow: 1;
-    flex-shrink: 2;            
+    flex-shrink: 1;            
 }
