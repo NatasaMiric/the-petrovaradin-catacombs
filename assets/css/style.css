@@ -36,6 +36,7 @@ h2 {
     font-size: 110%;
     letter-spacing: 2px;
     padding-top: 1em;
+    padding-bottom: 0.5em;
 }
 
 a:link {
@@ -54,4 +55,32 @@ a:link {
 .active {
     color: #180b03;
     background-color: #59aeaa;
+}
+
+/* hero image */
+
+.hero-image {
+    background-color: #180b03;
+    color: #ffffff;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+} 
+
+.hero-text {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    border: 3px solid #3f668b;
+}
+
+.hero-text h2 {
+    color:#ffffff;
+    padding-bottom: 0.5em;
+    text-transform: capitalize;    
 }
