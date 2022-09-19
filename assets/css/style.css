@@ -111,3 +111,54 @@ a:link {
     padding: 2em;
 }
 
+/* tour guide section */
+
+.tour-guides {    
+    background-color: #59aeaa;
+    padding: 2rem;
+}
+
+.tour-guide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 2.5rem;   
+    flex-wrap: wrap;     
+    
+}
+
+.tg-header h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    color: #180b03;
+}
+
+.tg-items {
+    width: 400px;
+    margin: 10px;    
+    line-height: 1.5rem;  
+     
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.tg-image {        
+    padding-bottom: 1.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+
+.tg-text {       
+    width: 200px; 
+    margin-bottom: 2rem;
+    text-align: center; 
+    background-color: #b48850; 
+    border-radius: 25px;
+    padding: 2rem;  
+    flex-grow: 1;
+    flex-shrink: 2;            
+}
