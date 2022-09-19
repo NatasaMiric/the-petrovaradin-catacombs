@@ -64,7 +64,16 @@ Visit the deployed site:
 ## Design
 ### Colour Scheme
 ![](docs/colorpalette.png)
+
+
+The colors are chosen based on the most present colors on the images that are used throughout the website. The colour palette was created using the [Colormind](http://colormind.io/) website.
+
 ### Typography
+
+[Google Fonts](https://fonts.google.com/) was used for the following fonts:
+
+* Merriweather is used for headings on the site. It is a serif font.
+* Roboto is used for the body text on the site. It is a sans-serif font. 
 ### Wireframes
 ## Features
 ### Existing features
