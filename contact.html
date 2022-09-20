@@ -20,29 +20,33 @@
         </a>
         <nav>
             <ul class="nav-list">
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-        <div class="tg-header">
-            <h2>Tour guides</h2>
-        </div>
-        <div class="tour-guide-container">
-            <div class="tg-items tg-text">
-                <p><i class="fas fa-clock"></i> 11a.m to 14p.m, Tuesday to Sunday, closed Mondays</p>
-                <p><i class="fas fa-compass"></i> Clock Tower, Petrovaradin fortress, Novi Sad</p>
-                <p><i class="fas fa-ticket-alt"></i> Ticket price:</p>
-                <p>Adults: 30e,<br>Students/elderly: 20e,<br>Group visits: 10e</p>
-            </div>
-            <div class="tg-items tg-image">
-                <img src="assets/images/petovaradinfortress1.jpg"
-                    alt="the entire Petrovaradin fortress photographed from afar">
-            </div>
-        </div>
-    
+    <section class="form">
+        <form method="POST" action="">
+            <h2>Contact Us:</h2>
+            <label for="full-name">Full Name: </label>
+            <input type="text" id="fullname" name="full-name" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email-adress" id="emailadress" required>
+            <label for="phone">Phone: </label>
+            <input type="number" name="number" id="phonenumber">
+            <p>Book a tour:</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="book-preference" id="yes" value="yes" required>
+            <label for="no">No</label>
+            <input type="radio" name="book-preference" id="no" value="no">
+            <label for="date">Choose a date: </label>
+            <input type="date" name="datum" id="date">
+            <input type="submit" value="Submit">
+        </form>
+
+    </section>
+
     <footer>
         <ul class="social-links">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"

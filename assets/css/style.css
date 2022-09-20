@@ -199,3 +199,9 @@ footer{
 .gallery img {
     width: 500px;      
 }
+
+/* contact page */
+
+form {
+    background-color: #3f668b;
+}
