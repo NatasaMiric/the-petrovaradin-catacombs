@@ -202,6 +202,10 @@ footer{
 
 /* contact page */
 
-form {
-    background-color: #3f668b;
+label {
+    color: #ffffff;
+}
+
+.info {
+    color: #b48850;
 }

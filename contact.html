@@ -27,24 +27,36 @@
         </nav>
     </header>
     <section class="form">
-        <form method="POST" action="">
-            <h2>Contact Us:</h2>
-            <label for="full-name">Full Name: </label>
-            <input type="text" id="fullname" name="full-name" required>
-            <label for="email">Email: </label>
-            <input type="email" name="email-adress" id="emailadress" required>
-            <label for="phone">Phone: </label>
-            <input type="number" name="number" id="phonenumber">
-            <p>Book a tour:</p>
-            <label for="yes">Yes</label>
-            <input type="radio" name="book-preference" id="yes" value="yes" required>
-            <label for="no">No</label>
-            <input type="radio" name="book-preference" id="no" value="no">
-            <label for="date">Choose a date: </label>
-            <input type="date" name="datum" id="date">
-            <input type="submit" value="Submit">
-        </form>
-
+        <div>
+            <div><h2>Contact Us:</h2></div>
+            <div>
+                <form method="POST" action="">
+                    
+                    <label for="full-name">Full Name: </label>
+                    <input type="text" id="fullname" name="full-name" required><br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email-adress" id="emailadress" required><br>
+                    <label for="phone">Phone: </label>
+                    <input type="number" name="number" id="phonenumber"><br>
+                    <label for="booking">Book a tour:</label>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="book-preference" id="yes" value="yes" required>
+                    <label for="no">No</label>
+                    <input type="radio" name="book-preference" id="no" value="no"><br>
+                    <label for="date">Choose a date: </label>
+                    <input type="date" name="datum" id="date"><br>
+                    <label for="message">Message: </label><br>
+                    <textarea id="message" name="message" rows="7" cols="32"
+                        placeholder="Write your message here"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="info">
+                <h3> Phone: +381 21 347 6537</h3>
+                <h3>Email: info@gmail.com</h3>
+                <h3>Adress: Petrovaradin, Fortress 4</h3>
+            </div>
+        </div>
     </section>
 
     <footer>
