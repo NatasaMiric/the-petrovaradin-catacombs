@@ -136,7 +136,7 @@ a:link {
     width: 400px;
     min-height: auto;   
     line-height: 1.5rem;  
-     
+   
 }
 
 img {
@@ -197,7 +197,5 @@ footer{
 }
 
 .gallery img {
-    width: 400px;  
-    height: 400px;
-    
+    width: 500px;      
 }
