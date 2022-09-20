@@ -32,12 +32,12 @@ h2 {
 .nav-list {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem;     
     list-style: none;
     font-size: 110%;
     letter-spacing: 2px;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 a:link {
@@ -182,4 +182,22 @@ footer{
     margin: 1rem;
     padding: 1rem;
     color: #ffffff;
+}
+
+/* gallery */
+
+.gallery {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    gap: 1rem;   
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.gallery img {
+    width: 400px;  
+    height: 400px;
+    
 }
