@@ -189,17 +189,13 @@ footer{
 /* gallery */
 
 .gallery {
-    display: flex;  
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;    
-    gap: 1rem;   
-    margin-left: 1rem;
-    margin-right: 1rem;
+    display: flex;      
+    flex-wrap: wrap;      
 }
 
 .gallery img {
-    width: 500px;      
+    width: 500px;   
+    padding-bottom: 1em;
 }
 
 /* contact page */
