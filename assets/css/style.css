@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300&display=swap');
 
 * {
-    margin: 0;
+    /* margin: 0; */
+    margin: 0 auto;
+    max-width: 1200px;
     padding: 0;
     border: none;
 }
@@ -95,14 +97,14 @@ a:link {
 
 .about-container {
     display: flex;
-    justify-content: center;
-    gap: 2.5rem;
+    justify-content: center;    
+    gap: 2rem;  
+    flex-wrap: wrap;
 }
 
 .about-items {
     width: 350px;
-    margin: 30px;
-    min-height: 200px;
+    margin: 20px;     
     text-align: justify;
     line-height: 1.5rem;
     background-color: #ffffff;
@@ -115,13 +117,14 @@ a:link {
 .tour-guides {    
     background-color: #59aeaa;
     padding: 2rem;
+    
 }
 
 .tour-guide-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
-    gap: 2.5em;   
+    display: flex;    
+    justify-content: center; 
+    align-items: center;       
+    gap: 2.5rem;   
     flex-wrap: wrap;   
     
 }
@@ -133,14 +136,13 @@ a:link {
 }
 
 .tg-items {
-    width: 400px;
-    min-height: auto;   
+    max-width: 450px;    
     line-height: 1.5rem;  
-   
+    align-items: center;
 }
 
-img {
-    max-width: 100%;
+img {    
+    width: 100%;
     
 }
 
@@ -151,14 +153,13 @@ img {
     
 }
 
-.tg-text {       
-    width: 200px; 
+.tg-text {            
     margin-bottom: 2rem;    
     text-align: center; 
     line-height: 1.8em;
     background-color: #b48850; 
     border-radius: 25px;
-    padding: 2rem;  
+    padding: 1rem;   
     flex-grow: 1;
     flex-shrink: 1;            
 }
