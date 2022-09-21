@@ -26,7 +26,7 @@ h2 {
 
 #logo {
     text-align: center;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 
 /* navigation links */
@@ -34,7 +34,8 @@ h2 {
 .nav-list {
     display: flex;
     justify-content: center;
-    gap: 2rem;     
+    gap: 2rem;      
+    width: fit-content; 
     list-style: none;
     font-size: 110%;
     letter-spacing: 2px;
