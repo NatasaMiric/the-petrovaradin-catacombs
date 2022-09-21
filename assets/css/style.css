@@ -242,7 +242,9 @@ footer{
     background-color: #180b03;
 }
     
-
+input {    
+     padding: 5px; 
+}
 
 
 
