@@ -159,8 +159,9 @@ img {
 
 /* footer */
 
-footer{
+footer {
     height:100px;
+    padding: 1rem;
 }
 
 .social-links {
@@ -203,6 +204,7 @@ footer{
     align-items: center;
     flex-wrap: wrap;     
     min-height: 1000px;
+    
     
 }  
 
