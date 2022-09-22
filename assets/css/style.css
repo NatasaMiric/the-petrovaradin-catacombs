@@ -37,8 +37,8 @@ h2 {
     list-style: none;
     font-size: 120%;
     letter-spacing: 2px;
-    padding-top: 1em;
-    padding-bottom: 1.5em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 a:link {
@@ -208,22 +208,26 @@ footer{
     display: flex;    
     align-items: center;
     flex-wrap: wrap;     
-    height: 900px;
+    min-height: 900px;
     
 }  
 
-.form {    
+.form-container {    
     margin-left: auto;
     margin-right: auto;    
-    line-height: 2rem;
-    background-color: rgb(63,102,139, .6);  
-    max-height: 400px;
+    line-height: 3rem;
+    background-color: rgb(63,102,139, .6); 
     padding: 2rem;
 }
 
+.contact-us {
+    min-height: 400px;
+}
 .contact-header {
     padding: 1rem;
     text-align: center;
+    letter-spacing: 2px;
+    color: #ffffff;
 }
 
 .button {
