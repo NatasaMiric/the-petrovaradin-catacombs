@@ -181,16 +181,14 @@ footer{
 /* gallery */
 
 .gallery {
-    display: flex;          
+    display: flex;
+    gap: 1rem;          
     flex-wrap: wrap; 
-    margin: 0 auto;
-    /* margin-left: auto;
-    /* margin-right: auto;  */
+    padding: 1rem;   
 }
 
 .gallery img {
     max-width: 100%; 
-    padding: 0.5rem;
     flex: 1;   
 }
 
