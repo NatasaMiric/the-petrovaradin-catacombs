@@ -25,6 +25,7 @@ h2 {
 #logo {
     text-align: center;
     padding-top: 1rem;
+    font-size: 200%;
 }
 
 /* navigation links */
@@ -32,10 +33,9 @@ h2 {
 .nav-list {
     display: flex;
     justify-content: center;
-    gap: 2rem;      
-    width: fit-content; 
+    gap: 2rem;    
     list-style: none;
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 2px;
     padding-top: 1em;
     padding-bottom: 1.5em;
@@ -77,7 +77,6 @@ a:link {
     margin-right: auto;
     padding: 1rem;  
     text-align: center;
-    border: 3px solid #3f668b;
 }
 
 .hero-text h2 {
