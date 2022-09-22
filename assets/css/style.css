@@ -95,9 +95,9 @@ a:link {
 
 .about-container {
     display: flex;
-    justify-content: center;    
-    gap: 2rem;  
+    justify-content: center;        
     flex-wrap: wrap;
+    padding-bottom: 1rem;
 }
 
 .about-items {
@@ -107,58 +107,53 @@ a:link {
     line-height: 1.5rem;
     background-color: #ffffff;
     border-radius: 25px;
-    padding: 2em;
+    padding: 1rem; 
 }
 
 /* tour guide section */
 
 .tour-guides {    
     background-color: #59aeaa;
-    padding: 2rem;
-    
+    padding: 1rem 0;
 }
 
 .tour-guide-container {
     display: flex;    
     justify-content: center; 
     align-items: center;       
-    gap: 2.5rem;   
+    gap: 2rem;  
     flex-wrap: wrap;   
-    
+    margin: 20px;
 }
 
 .tg-header h2 {
     text-align: center;
-    padding-bottom: 1.5rem;
     color: #180b03;
 }
 
 .tg-items {
-    max-width: 450px;    
-    line-height: 1.5rem;  
-    align-items: center;
-}
+    max-width: 450px;  
+    
+} 
 
 img {    
-    width: 100%;
+    max-width: 100%;
     
 }
 
 .tg-image {        
-    padding-bottom: 1.5rem;
-    flex-grow: 1;
-    
+    flex-grow: 1; 
+    flex-basis: 50%;  
     
 }
 
 .tg-text {            
-    margin-bottom: 2rem;    
     text-align: center; 
     line-height: 1.8em;
     background-color: #b48850; 
     border-radius: 25px;
-    padding: 1rem;   
-    flex-grow: 1;
+    padding: 1rem 0;
+    flex-grow: 1; 
                 
 }
 
@@ -188,13 +183,14 @@ footer{
 .gallery {
     display: flex;          
     flex-wrap: wrap; 
-    margin-left: auto;
-    margin-right: auto;     
+    margin: 0 auto;
+    /* margin-left: auto;
+    /* margin-right: auto;  */
 }
 
 .gallery img {
-    width: 450px;
-    padding: 1rem;    
+    max-width: 100%; 
+    padding: 0.5rem;
     flex: 1;   
 }
 
@@ -216,16 +212,15 @@ footer{
     margin-left: auto;
     margin-right: auto;    
     line-height: 3rem;
+    text-align: center;
     background-color: rgb(63,102,139, .6); 
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .contact-us {
     min-height: 400px;
 }
-.contact-header {
-    padding: 1rem;
-    text-align: center;
+.contact-header {    
     letter-spacing: 2px;
     color: #ffffff;
 }
