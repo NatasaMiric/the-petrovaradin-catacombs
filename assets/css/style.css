@@ -38,7 +38,7 @@ h2 {
     font-size: 120%;
     letter-spacing: 2px;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 a:link {
@@ -184,7 +184,7 @@ footer{
     display: flex;
     gap: 1rem;          
     flex-wrap: wrap; 
-    padding: 1rem;   
+    padding: 0 1rem 1rem 1rem;   
 }
 
 .gallery img {
