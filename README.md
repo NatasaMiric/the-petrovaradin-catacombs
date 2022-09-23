@@ -108,18 +108,63 @@ Wireframes were created for desktop and mobile.
 
 ## Technologies Used
 ### Languages Used
+
+HTML and CSS were used to create this website.
+
 ### Frameworks, Libraries & Programs Used
+
+
+Balsamiq-used to create wireframes.
+
+Github-to save and store project.
+
+Git - for version control.
+
+Google Fonts - to import the fonts used on the website.
+
+Font Awesome - for the icons used on the website.
+
+Google Dev Tools - to troubleshoot and test features, solve issues with responsiveness and styling.
+
+Tiny PNG to compress images.
+
+Am I Responsive? To show the website image on a range of devices.
 
 ## Deployment
 
 ## Testing
 ### Validator Testing
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* HTML
+
+* CSS
+
+
+
 ### Unfixed Bugs
 
 
 ## Credits
 ### Code Used
+
+* Header and footer were created using solutions from [Love Running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions). 
+
+* [Kewin Powell](https://www.youtube.com/watch?v=u044iM9xsWU&t=194s) tutorials were used for learning and understanding of flexbox.  
+
+
 ### Content
+
+* Content from the website was taken from [Viator](https://www.viator.com/Belgrade-attractions/Petrovaradin-Fortress/d22817-a24438?mcid=28353&tsem=true&supci=-804742770&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=g&supti=kwd-336495613121&suplp=1012212&supli=21213&m=28353&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=nt%3Ag&suplp=1012212&supli=21213&supti=kwd-336495613121&tsem=true&supci=kwd-336495613121&supap1=&supap2=&gclid=Cj0KCQjwpeaYBhDXARIsAEzItbHDPdS4UMAAqpOsE34mK4aeH9zVAq6MDdV9DoweoVyIYS2qPRJmbYMaAqk9EALw_wcB) and [Atlas Obscura](https://www.atlasobscura.com/places/catacombs-of-petrovaradin-fortress).
 ###  Media  
+
+* The photos were taken from: 
+* [Atlas Obscura](https://www.atlasobscura.com/places/catacombs-of-petrovaradin-fortress)
+* [Unsplash](https://unsplash.com/photos/8d6DMAn1UDc)
+* [Serbian Adventures](https://serbianadventures.com/en/adventure/view/622/underground-tour-adventure-catacombs)
+* [Novi Sad Travel](https://novisad.travel/cp/u-dubinama-petrovaradinske-tvrdave/)
+
+
 ###  Acknowledgments
 
