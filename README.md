@@ -164,6 +164,9 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Unsplash](https://unsplash.com/photos/8d6DMAn1UDc)
 * [Serbian Adventures](https://serbianadventures.com/en/adventure/view/622/underground-tour-adventure-catacombs)
 * [Novi Sad Travel](https://novisad.travel/cp/u-dubinama-petrovaradinske-tvrdave/)
+* [Trip Advisor](https://www.tripadvisor.com/LocationPhotoDirectLink-g295380-d11844462-i323718738-Petrovaradin_Catacombs-Novi_Sad_Vojvodina.html)
+* [Exit festival](https://www.exitfest.org/petrovaradinska-tvrdava)
+* [Wikipedia](https://sr.wikipedia.org/wiki/%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0_%D1%82%D0%B2%D1%80%D1%92%D0%B0%D0%B2%D0%B0)
 
 
 ###  Acknowledgments
