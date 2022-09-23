@@ -105,13 +105,13 @@ a:link {
 }
 
 .about-items {
-    width: 350px;
-    margin: 20px;     
+    max-width: 450px;
+    margin: 40px;     
     text-align: justify;
     line-height: 1.5rem;
     background-color: #ffffff;
     border-radius: 25px;
-    padding: 1rem; 
+    padding: 1.5rem; 
 }
 
 /* tour guide section */
@@ -128,7 +128,7 @@ a:link {
     align-items: center;       
     gap: 2rem;  
     flex-wrap: wrap;   
-    margin: 20px;
+    margin: 40px;
 }
 
 .tg-header h2 {
@@ -137,8 +137,7 @@ a:link {
 }
 
 .tg-items {
-    max-width: 450px;  
-    
+    max-width: 500px;      
 } 
 
 img {    
