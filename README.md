@@ -93,8 +93,18 @@ Wireframes were created for desktop and mobile.
 * The Footer
 * Gallery page
 * Contact page
+
 ### Future Implementations
+
+* Add video content
+* Expand content 
+
 ### Accessibility
+
+* The site consists of three separate pages in order to avoid excessive scrolling down the page and in the same time it's easier to access to relevant informations. It is also practical if in the future content expands. 
+* Image content includes proper textual alternatives so that they can be understood by assistive technologies and their users.
+* Site has a sufficient colour contrast and fonts that are easy to read. 
+
 
 ## Technologies Used
 ### Languages Used
