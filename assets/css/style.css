@@ -125,15 +125,15 @@ a:link {
 .tour-guides {    
     background-color: #59aeaa;
     color: #180b03;
-    padding: 1rem 0;
-    margin-bottom: 10px;
+    padding: 2rem 0; 
+    
 }
 
 .tour-guide-container {
     display: flex;    
     justify-content: center; 
     align-items: center;       
-    gap: 2rem;  
+    gap: 2rem;   
     flex-wrap: wrap;   
     margin: 30px;
     
@@ -143,28 +143,15 @@ a:link {
     text-align: center;
 }
 
-.tg-items {
-    max-width: 500px; 
-        
-} 
-
 img {    
-    max-width: 100%;
-    
-}
-
-.tg-image {        
-    flex-grow: 1; 
-    flex-basis: 50%;  
-    
+    max-width: 100%; 
+    border-radius: 25px;  
 }
 
 .tg-text {            
     text-align: center; 
     line-height: 1.8em;
-    border-radius: 25px;
     padding: 1rem;
-    flex-grow: 1; 
                 
 }
 
@@ -203,7 +190,7 @@ footer {
 .gallery img {
     max-width: 100%; 
     flex: 1;   
-}
+} 
 
 /* contact page */
 
@@ -222,11 +209,12 @@ footer {
 
 .form-container {    
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;     
     line-height: 3rem;
     text-align: center;
     background-color: rgb(63,102,139, .6); 
     padding: 1.5rem; 
+    
 } 
 
 .contact-us {
@@ -235,6 +223,10 @@ footer {
 .contact-header {    
     letter-spacing: 2px;
     color: #ffffff;
+}
+.info {
+    font-variant: small-caps;
+    
 }
 
 .button {
