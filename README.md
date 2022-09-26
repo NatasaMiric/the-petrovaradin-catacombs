@@ -101,6 +101,8 @@ Wireframes were created for desktop and mobile.
 
 ### Accessibility
 
+When creating this website, I paid great attention to its accessibility:
+
 * The site consists of three separate pages in order to avoid excessive scrolling down the page and in the same time it's easier to access to relevant informations. It is also practical if in the future content expands. 
 * Image content includes proper textual alternatives so that they can be understood by assistive technologies and their users.
 * Site has a sufficient colour contrast and fonts that are easy to read. 
@@ -132,14 +134,24 @@ Am I Responsive? To show the website image on a range of devices.
 
 ## Deployment
 
+
+
 ## Testing
+
+Tested all links in webpages if they are working correctly and make sure there are no broken links.
 ### Validator Testing
 
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+The W3C validator was used to validate the HTML on all pages of the website and to validate CSS in the style.css file.
 
 * HTML
 
+
+
 * CSS
+
+### Lighthouse
+
+### Testing User Stories
 
 
 
@@ -159,7 +171,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * Content from the website was taken from [Viator](https://www.viator.com/Belgrade-attractions/Petrovaradin-Fortress/d22817-a24438?mcid=28353&tsem=true&supci=-804742770&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=g&supti=kwd-336495613121&suplp=1012212&supli=21213&m=28353&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=nt%3Ag&suplp=1012212&supli=21213&supti=kwd-336495613121&tsem=true&supci=kwd-336495613121&supap1=&supap2=&gclid=Cj0KCQjwpeaYBhDXARIsAEzItbHDPdS4UMAAqpOsE34mK4aeH9zVAq6MDdV9DoweoVyIYS2qPRJmbYMaAqk9EALw_wcB) and [Atlas Obscura](https://www.atlasobscura.com/places/catacombs-of-petrovaradin-fortress).
 ###  Media  
 
-* The photos were taken from: 
+The photos were taken from: 
 * [Atlas Obscura](https://www.atlasobscura.com/places/catacombs-of-petrovaradin-fortress)
 * [Unsplash](https://unsplash.com/photos/8d6DMAn1UDc)
 * [Serbian Adventures](https://serbianadventures.com/en/adventure/view/622/underground-tour-adventure-catacombs)
@@ -167,6 +179,8 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Trip Advisor](https://www.tripadvisor.com/LocationPhotoDirectLink-g295380-d11844462-i323718738-Petrovaradin_Catacombs-Novi_Sad_Vojvodina.html)
 * [Exit festival](https://www.exitfest.org/petrovaradinska-tvrdava)
 * [Wikipedia](https://sr.wikipedia.org/wiki/%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%80%D0%B0%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0_%D1%82%D0%B2%D1%80%D1%92%D0%B0%D0%B2%D0%B0)
+* [Itinari](https://www.itinari.com/what-petrovaradin-fortress-hides-underground-us8i)
+* [In A City Near You](https://inacitynearyou.net/novi-sad-and-petrovaradin-fortress/)
 
 
 ###  Acknowledgments

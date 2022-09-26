@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color:#180b03;
+    color:#b48850;
     background-color: #180b03;
 }
 
@@ -106,8 +106,8 @@ a:link {
     display: flex;
     justify-content: center;
     align-items: center;        
-    flex-wrap: wrap;
-    /* padding-bottom: 1rem; */
+    flex-wrap: wrap;   
+    color: #180b03;
 }
 
 .about-items {
@@ -124,6 +124,7 @@ a:link {
 
 .tour-guides {    
     background-color: #59aeaa;
+    color: #180b03;
     padding: 1rem 0;
     margin-bottom: 10px;
 }
@@ -135,11 +136,11 @@ a:link {
     gap: 2rem;  
     flex-wrap: wrap;   
     margin: 30px;
+    
 }
 
 .tg-header h2 {
     text-align: center;
-    color: #180b03;
 }
 
 .tg-items {
