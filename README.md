@@ -151,7 +151,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * Header and footer were created using solutions from [Love Running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions). 
 
-* [Kewin Powell](https://www.youtube.com/watch?v=u044iM9xsWU&t=194s) tutorials were used for learning and understanding of flexbox.  
+* [Kewin Powell](https://www.youtube.com/watch?v=u044iM9xsWU&t=194s) tutorials were used for learning and understanding of flexbox and background images.  
 
 
 ### Content
