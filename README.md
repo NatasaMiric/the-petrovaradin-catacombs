@@ -85,6 +85,7 @@ Wireframes were created for desktop and mobile.
 
 
 ## Features
+
 ### Existing features
 * Navigation Bar
 * The Landing Page Image
@@ -109,6 +110,7 @@ When creating this website, I paid great attention to its accessibility:
 
 
 ## Technologies Used
+
 ### Languages Used
 
 HTML and CSS were used to create this website.
@@ -131,6 +133,8 @@ Google Dev Tools - to troubleshoot and test features, solve issues with responsi
 Tiny PNG to compress images.
 
 Am I Responsive? To show the website image on a range of devices.
+
+[Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - for checking the contrast ratio between text and background color.
 
 ## Deployment
 
