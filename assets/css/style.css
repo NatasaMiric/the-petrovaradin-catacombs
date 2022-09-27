@@ -5,76 +5,66 @@
     padding: 0;
     border: none;
 }
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color:#b48850;
     background-color: #180b03;
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    
 }
-
 /* heading and logo */
-
+header {
+    position: fixed;
+    top: 0;
+    background-color:#180b03 ;
+    width: 100%;
+    padding-top: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
 h1,
 h2 {
     font-family: Merriweather, serif;
     letter-spacing: 2px;
     color: #b48850;
-}
-
-#logo {
     text-align: center;
-    padding-top: 1.5rem;
-    font-size: 180%;
 }
-
 /* navigation links */
-
 .nav-list {
     list-style: none;
     text-align: center;
     font-size: 120%;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;   
 }
-
 .nav-list li {
     display: inline-block;
-    padding: 1rem;
-    
+    padding: 1rem;    
 }
-
 a:link {
     text-decoration: none;
 }
-
 .nav-list a {
-    color: #b48850;
-    
+    color: #b48850;    
 }
-
 .nav-list a:hover {
     color: #180b03;
     background-color: #b48850;
 }
-
 .active {
     color: #180b03;
     border-bottom: 2px solid #59aeaa;
 }
-
 /* hero image */
-
 .hero-image {
     background-color: #180b03;
     color: #ffffff;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
-
     padding-top: 200px;
     padding-bottom: 200px;
 } 
-
 .hero-text {
     max-width: 700px;
     margin-left: auto;
@@ -82,17 +72,13 @@ a:link {
     padding: 1rem;  
     text-align: center;
 }
-
 .hero-text h2 {
     color:#ffffff;
     padding-bottom: 0.5em;
     text-transform: capitalize;
-    font-size: 120%;    
-    
+    font-size: 120%;        
 }
-
 /* about section */
-
 .about-section {
     min-height: 450px;
 }
@@ -101,7 +87,6 @@ a:link {
     padding: 2rem 2rem;
     letter-spacing: 2px;
 }
-
 .about-container {
     display: flex;
     justify-content: center;
@@ -109,7 +94,6 @@ a:link {
     flex-wrap: wrap;   
     color: #180b03;
 }
-
 .about-items {
     max-width: 450px; 
     margin: 30px;     
@@ -119,111 +103,99 @@ a:link {
     border-radius: 25px;
     padding: 1.5rem; 
 }
-
 /* tour guide section */
-
 .tour-guides {    
     background-color: #59aeaa;
     color: #180b03;
-    padding: 2rem 0; 
-    
+    padding: 2rem 0;     
 }
-
 .tour-guide-container {
     display: flex;    
     justify-content: center; 
     align-items: center;       
     gap: 2rem;   
     flex-wrap: wrap;   
-    margin: 30px;
-    
+    margin: 30px;    
 }
-
 .tg-header h2 {
     text-align: center;
 }
-
 img {    
     max-width: 100%; 
     border-radius: 25px;  
 }
-
 .tg-text {            
     text-align: center; 
     line-height: 1.8em;
-    padding: 1rem;
-                
+    padding: 1rem;                
 }
-
 /* footer */
-
 footer {
-    min-height: 100px;
-    
+    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #180b03;
+    color: white;
+    text-align: center;
+   
 }
-
 .social-links {
     text-align: center;
 }
-
 .social-links > li {
     display: inline;
     padding: 1rem;
 }
-
 .social-links i {
     font-size: 150%;
     margin: 1em;
     padding: 1em;
     color: #ffffff;
 }
-
 /* gallery */
-
 .gallery {
     display: flex;
     gap: 1rem;          
     flex-wrap: wrap; 
-    padding: 0 1rem 1rem 1rem;   
+    padding: 4rem 1rem 1rem 1rem;   
 }
 
 .gallery img {
     max-width: 100%; 
     flex: 1;   
 } 
-
 /* contact page */
-
 .contact-image {
     color: #ffffff;
     font-weight: bold;
     background: url('../images/contactimage.jpg') no-repeat center center;
     background-size: cover;
     display: flex;    
+    gap: 1rem;
     align-items: center;
     flex-wrap: wrap;     
-    min-height: 1000px;
-    margin-bottom: 10px;
-    
+    min-height: 1200px;    
+    padding-top: 4rem; 
 }  
-
 .form-container {    
     margin-left: auto;
-    margin-right: auto;     
+    margin-right: auto; 
+    margin-top: 1rem;       
     line-height: 3rem;
     text-align: center;
-    background-color: rgb(63,102,139, .6); 
-    padding: 1.5rem; 
-} 
+    background-color: #3f668bbe; 
+    padding: 1rem; 
 
+} 
 .contact-us {
-    min-height: 400px;
-}
+    min-height: 400px;                  
+}   
 .contact-header {    
     letter-spacing: 2px;
     color: #ffffff;
 }
-
 .button {
     padding: 1em 2em;
     display: inline-block;
@@ -231,20 +203,19 @@ footer {
     color: #180b03;
     font-weight: bold;
 }
-
 .button:hover {
     color: #59aeaa;
     background-color: #180b03;
+}    
+.info {
+    margin-bottom: 2rem;
 }
-    
 input {    
-     padding: 5px; 
+     padding: 0.5em; 
 }
-
-
-
-
-
-
-
-
+.confirmation-message {
+    padding: 2rem;
+}
+.confirmation-message p {
+    text-align: center;
+}
