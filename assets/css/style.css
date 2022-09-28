@@ -25,17 +25,16 @@ header {
     overflow: hidden;
 }
 
-.logo {
-    font-size: 150%;
-}
-
 h1,
 h2 {
     font-family: Merriweather, serif;
     letter-spacing: 2px;
     color: #b48850;
-    text-align: center;
-    font-size: 120%;
+    text-align: center;      
+}
+
+.logo {
+    font-size: 150%;
 }
 
 .nav-list {
@@ -263,12 +262,12 @@ input {
     }
 }
 
-/* Reduce gap between nav bar and gallery on screens larger than 515px */
+/* Reduce gap between nav bar and gallery on screens larger than 330px */
 @media screen and (min-width: 330px) {
     .gallery {
         padding: 0rem 1rem 1rem 1rem;
     }
-} 
+}
 
 /* Display only icons on navbar on smaller screens */
 @media screen and (max-width: 480px) {
