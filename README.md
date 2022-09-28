@@ -43,23 +43,12 @@ Visit the deployed site: [The Petrovaradin Catacombs](https://natasamiric.github
 ---
 
 ## User Stories
-**Client Goals**
 
-* To provide a brief historical fact about the place.
-* To be able to view the site on a range of device sizes.
-* To make it easy for visitors to see when and where are tours taking place.
-* To visitor be able to contact The Petrovaradin catacombs guides and book a tour.
-
-**First Time Visitor Goals**
-    
+* As a visiting user, I would like to gain some information about fortress.   
 * As a visiting user, I would like to find out when and where are guiding tours taking place.
-* As a visiting user, I would like to navigate easily through the website.
-* As a visiting user, I would like to be able to book a tour.
-    
-    
-**Returning Visitor Goals**
-
-* As a visiting user, I would like to be able to make a contact for business enquires.    
+* As a visiting user, I wopuld like to be able to book a tour.  
+* As a visiting user, I would like to be able to make a contact for business enquires.   
+* As a visiting user, I would like to receive confirmation that my message was sent successfully.
     
 ## Design
 ### Colour Scheme
@@ -87,16 +76,58 @@ Wireframes were created for desktop and mobile.
 ## Features
 
 ### Existing features
-* Navigation Bar
+ 
+* Logo
+
+  * It is featured on all three pages on website and fully responsive. It allow users to go back to home page by clicking on it. 
+
+
+* Navigation bar
+
+  * It is featured on all three pages on website, fully responsive and it includes links to Home page, Gallery and Contact page.  
+  * Fixed on top of all three pages to allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via back button or scroll all the way up.
+  * Sorted out according to priority and it is consistent in style and color in order to enable easy navigation.
+  * In order to fit in one row, navigation links are presented with icons only on smaller screen sizes while on larger screens there is icon and text. 
+
+
 * The Landing Page Image
+
+  * One third of the home page consist of the image that provides users with an insight how the catacombs look like and has an overlay text with where the tour guides are located and slogan to motivate the users to use tour guide services. 
+  * Image and text are fully responsive.  
+
+
 * About Section
+
+  * About section will allow users to find out some informations about the fortress and it's underground tunnels.
+  * It consist of two boxes that are responsive. On large screen sizes boxes are positioned horizontally and on smaller screen sizes vertically. 
+
+
 * Tour Guide Section
+
+  * This section will allow users to see where and when the tour guides take place, information about the price and it has an image that shows the whole fortress which will arouse the interest of user with its appearance.
+  * It consist of two box that are responsive, one containig text and the other image. On smaller screens they are positioned on top of each other and on larger screen beside one another. 
+
+
 * The Footer
+
+  * The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
+  * The footer is valuable to the user as it encourages them to keep connected via social media where they can be constantly updated.
+
 * Gallery page
+
+  * The gallery will give visitors the opportunity to see what the underground tunnels look like. 
+  * This section is important because it will attract the attention of the visitors and motivate them to use the  tour guide services. 
+
 * Contact page
+
+  * This page will allow the user to contact The Petrovaradin Catacombs, book a tour and find out the informations about it's adress, phone number, email and opening hours. 
+  * The user will be asked to submit their full name, email address, phone, to choose if they want to book a tour, choose a date, write a message. After submiting the form, users will recieve confirmation message that submission is done succesfully.   
+  * Responsive form and contact information are positioned separately in two boxes and are overlaying the image that is covering the whole page. On larger screen sizes they are positioned horizontaly and on small screens verticaly. 
+  
 
 ### Future Implementations
 
+* Add review option
 * Add video content
 * Expand content 
 
@@ -159,7 +190,7 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 
 
 
-### Unfixed Bugs
+### Fixed Bugs
 
 
 ## Credits
