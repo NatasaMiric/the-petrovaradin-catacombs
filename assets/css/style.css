@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300&display=swap');
 
 * {
-    margin: 0;    
+    margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color:#b48850;
+    color: #b48850;
     background-color: #180b03;
     padding-top: 100px;
-    padding-bottom: 100px ;    
+    padding-bottom: 100px;
 }
-/* Header and navbar centered and sticky on top of the page  */
+
+/* Header and navbar centered and fixed on top of the all pages  */
 header {
     position: fixed;
     top: 0;
-    background-color:#180b03 ;
+    background-color: #180b03;
     width: 100%;
     padding-top: 1.5rem;
     overflow: hidden;
     margin-bottom: 40px;
 }
+
 h1,
 h2 {
     font-family: Merriweather, serif;
@@ -30,31 +33,37 @@ h2 {
     color: #b48850;
     text-align: center;
 }
+
 .nav-list {
     list-style: none;
     text-align: center;
     font-size: 120%;
-    letter-spacing: 2px;   
 }
+
 .nav-list li {
     display: inline-block;
-    padding: 1rem;    
+    padding: 1.5rem;
 }
+
 a:link {
     text-decoration: none;
 }
+
 .nav-list a {
-    color: #b48850;    
+    color: #b48850;
 }
+
 .nav-list a:hover {
     color: #180b03;
     background-color: #b48850;
 }
+
 .active {
     color: #180b03;
     border-bottom: 2px solid #59aeaa;
 }
-/* Style hero image with text centered inside*/
+
+/* Styled hero image with text centered inside*/
 .hero-image {
     background-color: #180b03;
     color: #ffffff;
@@ -62,69 +71,86 @@ a:link {
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
-} 
+}
+
 .hero-text {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;  
+    padding: 1rem;
     text-align: center;
 }
+
 .hero-text h2 {
-    color:#ffffff;
+    color: #ffffff;
     padding-bottom: 0.5em;
     text-transform: capitalize;
-    font-size: 120%;        
+    font-size: 120%;
 }
+
+/* About section where content on larger screens is positioned in horizontal line
+     and on smaller screens in vertical line with the help of flexbox and flex wrap
+      */
 .about-section {
     min-height: 450px;
 }
+
 .about-header {
     text-align: center;
     padding: 2rem 2rem;
     letter-spacing: 2px;
 }
+
 .about-container {
     display: flex;
     justify-content: center;
-    align-items: center;        
-    flex-wrap: wrap;   
+    align-items: center;
+    flex-wrap: wrap;
     color: #180b03;
 }
+
 .about-items {
-    max-width: 450px; 
-    margin: 30px;     
+    max-width: 450px;
+    margin: 30px;
     text-align: justify;
     line-height: 1.5rem;
     background-color: #ffffff;
     border-radius: 25px;
-    padding: 1.5rem; 
+    padding: 1.5rem;
 }
-.tour-guides {    
+
+/* Tour guide section styled with flexbox and flex wrap to achieve responsiveness of the content */
+.tour-guides {
     background-color: #59aeaa;
     color: #180b03;
-    padding: 2rem 0;     
+    padding: 2rem 0;
 }
+
 .tour-guide-container {
-    display: flex;    
-    justify-content: center; 
-    align-items: center;       
-    gap: 2rem;   
-    flex-wrap: wrap;   
-    margin: 30px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 30px;
 }
+
 .tg-header h2 {
     text-align: center;
 }
-img {    
-    max-width: 100%; 
-    border-radius: 25px;  
+
+img {
+    max-width: 100%;
+    border-radius: 25px;
 }
-.tg-text {            
-    text-align: center; 
+
+.tg-text {
+    text-align: center;
     line-height: 1.8em;
-    padding: 1rem;                
+    padding: 1rem;
 }
+
+/* Fotter is fixed on the bottom of the page */
 footer {
     height: 100px;
     position: fixed;
@@ -133,63 +159,71 @@ footer {
     width: 100%;
     background-color: #180b03;
     color: white;
-    text-align: center;   
+    text-align: center;
 }
+
 .social-links {
     text-align: center;
 }
-.social-links > li {
+
+.social-links>li {
     display: inline;
     padding: 1rem;
 }
+
 .social-links i {
     font-size: 150%;
     margin: 1em;
     padding: 1em;
     color: #ffffff;
 }
+
 /* Style gallery with flexbox in order to achieve columns and rows */
 .gallery {
     display: flex;
-    gap: 1rem;          
-    flex-wrap: wrap; 
-    padding: 4rem 1rem 1rem 1rem;   
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 4rem 1rem 1rem 1rem;
 }
 
 .gallery img {
-    max-width: 100%; 
-    flex: 1;   
-} 
+    max-width: 100%;
+    flex: 1;
+}
+
 /* Style contact page with hero image so that it covers whole page. */
 .contact-image {
     color: #ffffff;
     font-weight: bold;
     background: url('../images/contactimage.jpg') no-repeat center center;
     background-size: cover;
-    display: flex;    
+    display: flex;
     gap: 1rem;
     align-items: center;
-    flex-wrap: wrap;     
-    min-height: 1200px;    
-    padding-top: 4rem; 
-}  
-.form-container {    
+    flex-wrap: wrap;
+    min-height: 1200px;
+    padding-top: 4rem;
+}
+
+.form-container {
     margin-left: auto;
-    margin-right: auto; 
-    margin-top: 1rem;       
+    margin-right: auto;
+    margin-top: 1rem;
     line-height: 3rem;
     text-align: center;
-    background-color: #3f668bbe; 
-    padding: 1rem; 
+    background-color: #3f668bbe;
+    padding: 1rem;
+}
 
-} 
 .contact-us {
-    min-height: 400px;                  
-}   
-.contact-header {    
+    min-height: 400px;
+}
+
+.contact-header {
     letter-spacing: 2px;
     color: #ffffff;
 }
+
 .button {
     padding: 1em 2em;
     display: inline-block;
@@ -197,25 +231,46 @@ footer {
     color: #180b03;
     font-weight: bold;
 }
+
 .button:hover {
     color: #59aeaa;
     background-color: #180b03;
-}    
+}
+
 .info {
     margin-bottom: 2rem;
 }
-input {    
-     padding: 0.5em; 
+
+input {
+    padding: 0.5em;
 }
+
 .confirmation-message {
     padding: 2rem;
 }
+
 .confirmation-message p {
     text-align: center;
 }
-/* Reduce the gap between contents on contact page */
- @media only screen and (min-width: 1200px) {
+
+/* For larger screen sizes with min width 1200px. Reduce the gap between contents on contact page */
+@media screen and (min-width: 1200px) {
     .info {
         margin-left: 50px;
     }
-} 
+}
+/* Reduce gap between nav bar and gallery on screens larger than 515px */
+@media  screen and (min-width: 515px) { 
+    .gallery {
+        padding: 1.5rem 1rem 1rem 1rem;
+    }
+}
+
+/* Display only icons on navbar on smaller screens */
+@media screen and (max-width: 400px) {
+    
+    .nav-list span {
+        display: none;
+    }
+}
+
