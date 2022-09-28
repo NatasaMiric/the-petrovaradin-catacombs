@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     color: #b48850;
     background-color: #180b03;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 100px;
 }
 
@@ -21,9 +21,12 @@ header {
     top: 0;
     background-color: #180b03;
     width: 100%;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     overflow: hidden;
-    margin-bottom: 40px;
+}
+
+.logo {
+    font-size: 150%;
 }
 
 h1,
@@ -32,12 +35,13 @@ h2 {
     letter-spacing: 2px;
     color: #b48850;
     text-align: center;
+    font-size: 120%;
 }
 
 .nav-list {
     list-style: none;
     text-align: center;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .nav-list li {
@@ -168,7 +172,6 @@ footer {
 
 .social-links>li {
     display: inline;
-    padding: 1rem;
 }
 
 .social-links i {
@@ -183,7 +186,7 @@ footer {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 3.5rem 1rem 1rem 1rem;
 }
 
 .gallery img {
@@ -261,11 +264,11 @@ input {
 }
 
 /* Reduce gap between nav bar and gallery on screens larger than 515px */
-@media screen and (min-width: 515px) {
+@media screen and (min-width: 330px) {
     .gallery {
-        padding: 1.5rem 1rem 1rem 1rem;
+        padding: 0rem 1rem 1rem 1rem;
     }
-}
+} 
 
 /* Display only icons on navbar on smaller screens */
 @media screen and (max-width: 480px) {
