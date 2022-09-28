@@ -140,6 +140,7 @@ a:link {
 
 .tg-header h2 {
     text-align: center;
+    color: #180b03;
 }
 
 img {
@@ -190,6 +191,7 @@ footer {
 
 .gallery img {
     max-width: 100%;
+    height: auto;
     flex: 1;
 }
 

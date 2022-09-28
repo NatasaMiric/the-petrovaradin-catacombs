@@ -46,9 +46,9 @@ Visit the deployed site: [The Petrovaradin Catacombs](https://natasamiric.github
 
 * As a visiting user, I would like to gain some information about fortress.   
 * As a visiting user, I would like to find out when and where are guiding tours taking place.
-* As a visiting user, I wopuld like to be able to book a tour.  
+* As a visiting user, I would like to be able to book a tour.  
 * As a visiting user, I would like to be able to make a contact for business enquires.   
-* As a visiting user, I would like to receive confirmation that my message was sent successfully.
+* As a visiting user, I would like to receive confirmation that my form was sent successfully.
     
 ## Design
 ### Colour Scheme
@@ -99,7 +99,7 @@ Wireframes were created for desktop and mobile.
 * About Section
 
   * About section will allow users to find out some informations about the fortress and it's underground tunnels.
-  * It consist of two boxes that are responsive. On large screen sizes boxes are positioned horizontally and on smaller screen sizes vertically. 
+  * It consist of two boxes with the text that are responsive. On large screen sizes boxes are positioned horizontally and on smaller screen sizes vertically. 
 
 
 * Tour Guide Section
@@ -116,13 +116,18 @@ Wireframes were created for desktop and mobile.
 * Gallery page
 
   * The gallery will give visitors the opportunity to see what the underground tunnels look like. 
-  * This section is important because it will attract the attention of the visitors and motivate them to use the  tour guide services. 
+  * This section is important because it will attract the attention of the visitors and motivate them to use the tour guide services. 
 
 * Contact page
 
   * This page will allow the user to contact The Petrovaradin Catacombs, book a tour and find out the informations about it's adress, phone number, email and opening hours. 
   * The user will be asked to submit their full name, email address, phone, to choose if they want to book a tour, choose a date, write a message. After submiting the form, users will recieve confirmation message that submission is done succesfully.   
   * Responsive form and contact information are positioned separately in two boxes and are overlaying the image that is covering the whole page. On larger screen sizes they are positioned horizontaly and on small screens verticaly. 
+
+* Confirmation page
+  * Visitors will be redirected to the page after they fill out the form and submit it. 
+  * It is valuable to the user to get the confirmation that his query is received. 
+
   
 
 ### Future Implementations
