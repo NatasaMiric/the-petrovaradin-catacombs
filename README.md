@@ -3,9 +3,9 @@
 The Petrovaradin Catacombs is a website that aims to provide information about organized tours through the underground of the fortress and to inspire visitors to be adventurous. 
 The site will be targeted towards people who like to explore. The Petrovaradin catacombs will be useful for visitors to know where and when the tours take place. 
 
-Add an image of the finished site here.
+![](docs/amiresponsive.png)
 
-Visit the deployed site:
+Visit the deployed site: [The Petrovaradin Catacombs](https://natasamiric.github.io/the-petrovaradin-catacombs/)
 
 ## Contents
 
