@@ -259,18 +259,17 @@ input {
         margin-left: 50px;
     }
 }
+
 /* Reduce gap between nav bar and gallery on screens larger than 515px */
-@media  screen and (min-width: 515px) { 
+@media screen and (min-width: 515px) {
     .gallery {
         padding: 1.5rem 1rem 1rem 1rem;
     }
 }
 
 /* Display only icons on navbar on smaller screens */
-@media screen and (max-width: 400px) {
-    
+@media screen and (max-width: 480px) {
     .nav-list span {
         display: none;
     }
 }
-
