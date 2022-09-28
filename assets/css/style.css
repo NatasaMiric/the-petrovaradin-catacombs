@@ -264,12 +264,12 @@ input {
     }
 }
 
-/* Reduce gap between nav bar and gallery on screens larger than 330px */
-@media screen and (min-width: 330px) {
+/* Reduce gap between nav bar and gallery on screens larger than 400px */
+ @media screen and (min-width: 400px) {
     .gallery {
-        padding: 0rem 1rem 1rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
     }
-}
+} 
 
 /* Display only icons on navbar on smaller screens */
 @media screen and (max-width: 480px) {
