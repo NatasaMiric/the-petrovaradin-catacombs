@@ -12,7 +12,7 @@ body {
     color: #b48850;
     background-color: #180b03;
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 /* Header and navbar centered and fixed on top of the all pages  */
@@ -21,8 +21,7 @@ header {
     top: 0;
     background-color: #180b03;
     width: 100%;
-    padding-top: 1rem;
-    overflow: hidden;
+    padding-top: 1rem;    
 }
 
 h1,
@@ -30,7 +29,9 @@ h2 {
     font-family: Merriweather, serif;
     letter-spacing: 2px;
     color: #b48850;
-    text-align: center;      
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 120%;
 }
 
 .logo {
@@ -82,6 +83,8 @@ a:link {
     margin-right: auto;
     padding: 1rem;
     text-align: center;
+    text-shadow: 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black;
+    font-weight: bold;
 }
 
 .hero-text h2 {
@@ -156,14 +159,12 @@ img {
 
 /* Fotter is fixed on the bottom of the page */
 footer {
-    height: 100px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #180b03;
-    color: white;
-    text-align: center;
+    color: white;    
 }
 
 .social-links {
@@ -176,8 +177,7 @@ footer {
 
 .social-links i {
     font-size: 150%;
-    margin: 1em;
-    padding: 1em;
+    padding: 1rem;
     color: #ffffff;
 }
 
@@ -202,20 +202,17 @@ footer {
     background: url('../images/contactimage.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-evenly;    
     align-items: center;
     flex-wrap: wrap;
-    min-height: 1000px;
-    padding-top: 3rem;
+    min-height: 1000px; 
 }
 
-.form-container {    
-    line-height: 3rem;
+.form-container {
+    line-height: 2rem;
     text-align: center;
-    background-color: #3f668bbe; 
-    padding: 1rem;
-    
+    background-color: #3f668bbe;
+    padding: 1rem; 
 }
 
 .contact-header {
@@ -242,25 +239,19 @@ input {
 
 .confirmation-message {
     padding: 2rem;
+    color: #ffffff;
 }
 
 .confirmation-message p {
     text-align: center;
 }
 
-/* For larger screen sizes with min width 1200px. Reduce the gap between contents on contact page
-@media screen and (min-width: 1200px) { */
-    /* .info {
-        margin-left: 50px;
-    }
-} */
-
 /* Reduce gap between nav bar and gallery on screens larger than 400px */
- @media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {
     .gallery {
         padding: 1rem 1rem 1rem 1rem;
     }
-} 
+}
 
 /* Display only icons on navbar on smaller screens */
 @media screen and (max-width: 480px) {
