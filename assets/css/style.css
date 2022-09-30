@@ -11,8 +11,7 @@ body {
     font-weight: 300;
     color: #b48850;
     background-color: #180b03;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    padding-top: 120px;    
 }
 
 /* Header and navbar centered and fixed on top of the all pages  */
@@ -21,7 +20,7 @@ header {
     top: 0;
     background-color: #180b03;
     width: 100%;
-    padding-top: 1rem;    
+    padding-top: 1rem;
 }
 
 h1,
@@ -157,14 +156,12 @@ img {
     padding: 1rem;
 }
 
-/* Fotter is fixed on the bottom of the page */
+
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: #180b03;
-    color: white;    
+    color: white;
+    height: 50px;
 }
 
 .social-links {
@@ -179,6 +176,7 @@ footer {
     font-size: 150%;
     padding: 1rem;
     color: #ffffff;
+    margin: 1rem;
 }
 
 /* Style gallery with flexbox in order to achieve columns and rows */
@@ -202,17 +200,19 @@ footer {
     background: url('../images/contactimage.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 1200px; 
+    height: 1200px;
 }
 
 .form-container {
     line-height: 2rem;
     text-align: center;
     background-color: #3f668bbe;
-    padding: 1rem; 
+    padding: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .contact-header {
@@ -257,5 +257,16 @@ input {
 @media screen and (max-width: 480px) {
     .nav-list span {
         display: none;
+    }
+}
+
+/* 
+Each content inside image on contact page
+ is centered on larger screens 
+  */
+@media screen and (min-width: 532px) {
+    .contact-image {
+        justify-content: space-evenly;
+        gap: 2rem;
     }
 }
