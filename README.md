@@ -63,6 +63,7 @@ The colors are chosen based on the most present colors on the images that are us
 
 * Merriweather is used for headings on the site. It is a serif font.
 * Roboto is used for the body text on the site. It is a sans-serif font. 
+
 ### Wireframes
 
 Wireframes were created for desktop and mobile. 
@@ -82,6 +83,8 @@ Wireframes were created for desktop and mobile.
   * It is featured on all three pages on website and fully responsive. It allow users to go back to home page by clicking on it. 
 
 
+  ![](docs/wireframes/logo.png)
+
 * Navigation bar
 
   * It is featured on all three pages on website, fully responsive and it includes links to Home page, Gallery and Contact page.  
@@ -90,10 +93,17 @@ Wireframes were created for desktop and mobile.
   * In order to fit in one row, navigation links are presented with icons only on smaller screen sizes while on larger screens there is icon and text. 
 
 
+  ![](docs/wireframes/mobilenavbar.png)
+
+
+  ![](docs/wireframes/desktopnavbar.png)
+
 * The Landing Page Image
 
-  * One third of the home page consist of the image that provides users with an insight how the catacombs look like and has an overlay text with where the tour guides are located and slogan to motivate the users to use tour guide services. 
-  * Image and text are fully responsive.  
+  * One third of the home page consist of the image that provides users with an insight how the catacombs look like and has an overlay text with information where the tour guides are located and slogan to inspire the users to use tour guide services. 
+
+  ![](docs/wireframes/hero.png)
+   
 
 
 * About Section
@@ -101,11 +111,19 @@ Wireframes were created for desktop and mobile.
   * About section will allow users to find out some informations about the fortress and it's underground tunnels.
   * It consist of two boxes with the text that are responsive. On large screen sizes boxes are positioned horizontally and on smaller screen sizes vertically. 
 
+  ![](docs/wireframes/aboutdesktop.png)
+
+  ![](docs/wireframes/aboutsmallerscreen.png)
+
 
 * Tour Guide Section
 
   * This section will allow users to see where and when the tour guides take place, information about the price and it has an image that shows the whole fortress which will arouse the interest of user with its appearance.
-  * It consist of two box that are responsive, one containig text and the other image. On smaller screens they are positioned on top of each other and on larger screen beside one another. 
+  * This section is fully responsive, one box containig the text and the other image. On smaller screens they are positioned on top of each other and on larger screen beside one another. 
+
+  ![](docs/wireframes/tourguidedesktop.png)
+
+  ![](docs/wireframes/tourguidesmallerscreen.png)
 
 
 * The Footer
@@ -113,10 +131,14 @@ Wireframes were created for desktop and mobile.
   * The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
   * The footer is valuable to the user as it encourages them to keep connected via social media where they can be constantly updated.
 
+  ![](docs/wireframes/footer.png)
+
 * Gallery page
 
-  * The gallery will give visitors the opportunity to see what the underground tunnels look like. 
+  * The gallery will give users the opportunity to see what the underground tunnels look like. 
   * This section is important because it will attract the attention of the visitors and motivate them to use the tour guide services. 
+
+  ![](docs/wireframes/gallerydesktop.png)
 
 * Contact page
 
@@ -124,11 +146,13 @@ Wireframes were created for desktop and mobile.
   * The user will be asked to submit their full name, email address, phone, to choose if they want to book a tour, choose a date, write a message. After submiting the form, users will recieve confirmation message that submission is done succesfully.   
   * Responsive form and contact information are positioned separately in two boxes and are overlaying the image that is covering the whole page. On larger screen sizes they are positioned horizontaly and on small screens verticaly. 
 
+  ![](docs/wireframes/contactpage.png)
+
 * Confirmation page
   * Visitors will be redirected to the page after they fill out the form and submit it. 
   * It is valuable to the user to get the confirmation that his query is received. 
 
-  
+  ![](docs/wireframes/confirmation.png)  
 
 ### Future Implementations
 
@@ -151,43 +175,82 @@ When creating this website, I paid great attention to its accessibility:
 
 HTML and CSS were used to create this website.
 
-### Frameworks, Libraries & Programs Used
+### Programs Used
 
+Balsamiq- was used to create wireframes.
 
-Balsamiq-used to create wireframes.
+Github- was used store the project and display on GitHub Pages.
 
-Github-to save and store project.
+Git -was used for version control.
 
-Git - for version control.
+Google Fonts - was used to import the fonts used on the website.
 
-Google Fonts - to import the fonts used on the website.
-
-Font Awesome - for the icons used on the website.
+Font Awesome - was used for the icons used on the website.
 
 Google Dev Tools - to troubleshoot and test features, solve issues with responsiveness and styling.
 
-Tiny PNG to compress images.
+Tiny PNG- was used to compress images.
 
-Am I Responsive? To show the website image on a range of devices.
+Am I Responsive? - was used to show the website image on a range of devices.
 
 [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - for checking the contrast ratio between text and background color.
 
 ## Deployment
 
+* via gitpod
+  * Log into GitHub.
+  * Make a repository
+  * Click the green button close to the top of the page that  says Gitpod.
+  * After letting Gitpod load an alert pops up on the top of the screen, click cancel.
+  * Then click the button that says More Actions.
+  * Hereafter click Open in Browser.
+  * Now right click with your mouse over the big box on the left that has your repository name over it.
+  * Click new file.
+  * Then make an index.html file.
+  * Go to the top of the index file and click ! and enter. This will make a start template.
+  * Make a basic structure for your index page.
+  * Click on terminal at the bottom of the page.
+  * Write 'git add .'
+  * Then for your first commit write 'git commit -m "Initial commit".
+  * Hereafter write 'git push'.
+  * Your code have now been pushed back and saved on your GitHub repository.
+
+  The live link can be found here: https://natasamiric.github.io/the-petrovaradin-catacombs/
+
+* via GitHub pages
+  * Log into GitHub.
+  * Go to the repositories.
+  * Then take this project LunationDesign.
+  * Go to the settings link.
+  * Then click on the pages link that is found on the navigations bar on the left side.
+  * Check the source section on the page, and choose main instead of none.
+  * Then click Save. After a few minutes you can see your live GitHub pages site is now deployed and the URL shown at the top of the page.
+
+
 
 
 ## Testing
 
-Tested all links in webpages if they are working correctly and make sure there are no broken links.
+Testing was conducted throughout the website development with the help of Dev Tools. All the links and form have been checked if they are working correctly. 
+
 ### Validator Testing
 
-The W3C validator was used to validate the HTML on all pages of the website and to validate CSS in the style.css file.
+The [W3C validator](https://validator.w3.org/) was used to validate HTML and [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate CSS.
 
 * HTML
 
+  [Home page](docs/testing/validator/w3c-index.html.png)
 
+  [Gallery](docs/testing/validator/w3c-gallery.html.png)
+
+
+  [Contact page](docs/testing/validator/w3c-contact.html.png)
+
+  [Confirmation page](docs/testing/validator/w3c-confirmation.png)
 
 * CSS
+
+  [CSS](docs/testing/validator/w3c-css.png)
 
 ### Lighthouse
 
