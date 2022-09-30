@@ -238,7 +238,7 @@ Testing of form was carried out with trying out different variations:
 7. When all is selected and filled except date, the form would be succesfully sent and it would redirect to confirmation page.
 8. Testing included all possible variations and each time form has reacted appropriately, that on of the fields should be filled out or button to be chosen. 
 
-**Supported screens and devices**
+**Supported screens and browsers**
 
 The website has a responsive layout and supports:  
 * Large desktop 2560px x 1440px
@@ -260,15 +260,12 @@ The website has been checked on multiple browsers and mobile devices:
 * Iphone 5/6/7/8
 * Iphone 12 Pro
 * Ipad Pro
- 
-
-
 
 When requesting for peer code review on Slack, Code Institute chanel, I got one feedback from Hash who pointed out: 
 
 * When filling out the form on mobile device, form fields get covered by footer
 
-* Too much empty space on contact page on desktop device.  
+* Too much empty space on contact page on desktop device  
 
 ### Validator Testing
 
@@ -356,6 +353,7 @@ Lighthouse runs a barrage of tests against the page, and then generates a report
 ### Content
 
 * Content from the website was taken from [Viator](https://www.viator.com/Belgrade-attractions/Petrovaradin-Fortress/d22817-a24438?mcid=28353&tsem=true&supci=-804742770&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=g&supti=kwd-336495613121&suplp=1012212&supli=21213&m=28353&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=nt%3Ag&suplp=1012212&supli=21213&supti=kwd-336495613121&tsem=true&supci=kwd-336495613121&supap1=&supap2=&gclid=Cj0KCQjwpeaYBhDXARIsAEzItbHDPdS4UMAAqpOsE34mK4aeH9zVAq6MDdV9DoweoVyIYS2qPRJmbYMaAqk9EALw_wcB) and [Atlas Obscura](https://www.atlasobscura.com/places/catacombs-of-petrovaradin-fortress).
+
 ###  Media  
 
 The photos were taken from: 
@@ -369,6 +367,7 @@ The photos were taken from:
 * [Itinari](https://www.itinari.com/what-petrovaradin-fortress-hides-underground-us8i)
 * [In A City Near You](https://inacitynearyou.net/novi-sad-and-petrovaradin-fortress/)
 
-
 ###  Acknowledgments
+
+
 
