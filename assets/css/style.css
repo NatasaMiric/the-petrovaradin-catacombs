@@ -82,9 +82,8 @@ a:link {
     margin-right: auto;
     padding: 1rem;
     text-align: center;
-    /* text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;     */
     text-shadow: 2px 2px 2px black;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .hero-text h2 {
@@ -157,6 +156,7 @@ img {
     padding: 1rem;
 }
 
+/* Footer section with social links */
 footer {
     width: 100%;
     background-color: #180b03;
@@ -179,7 +179,7 @@ footer {
     margin: 1rem;
 }
 
-/* Style gallery with flexbox in order to achieve columns and rows */
+/* Gallery section styled with flexbox in order to achieve columns and rows */
 .gallery {
     display: flex;
     gap: 1rem;
@@ -193,7 +193,11 @@ footer {
     flex: 1;
 }
 
-/* Style contact page with hero image so that it covers whole page. */
+/* 
+Contact page styled with hero image so that it covers whole page. 
+Content inside image is centered on large screens and on smaller screens
+positioned verticaly. 
+*/
 .contact-image {
     color: #ffffff;
     font-weight: bold;
@@ -237,6 +241,7 @@ input {
     padding: 0.5em;
 }
 
+/* Confirmation page */
 .confirmation-message {
     padding: 2rem;
     color: #ffffff;
@@ -253,30 +258,33 @@ input {
     }
 }
 
-/* Display only icons on navbar on smaller screens */
+/* Display only icons in navbar on smaller screens */
 @media screen and (max-width: 480px) {
     .nav-list span {
         display: none;
     }
 }
+
 /* Media query for screens larger that 532px */
 @media screen and (min-width: 532px) {
+
     /* Each content inside image on contact page is centered */
     .contact-image {
         justify-content: space-evenly;
         gap: 2rem;
     }
+
     /* Footer is fixed on the bottom */
     footer {
         position: fixed;
         bottom: 0;
         height: 100px;
     }
-
+    
     body {
         margin-bottom: 100px;
     }
-
+    /* Larger font size */
     .logo {
         font-size: 150%;
     }
