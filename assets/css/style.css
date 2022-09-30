@@ -184,12 +184,13 @@ footer {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .gallery img {
     width: 350px;
     height: 260px;
+    padding: 1%;    
 }
 
 /* 
@@ -206,7 +207,9 @@ positioned verticaly.
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 1200px;
+    width: 100%;
+    min-height: 674px;
+    gap: 2rem;
 }
 
 .form-container {
@@ -238,6 +241,11 @@ positioned verticaly.
 
 input {
     padding: 0.5em;
+}
+
+.map {
+    width: 100%;
+    min-height: auto;
 }
 
 /* Confirmation page */
