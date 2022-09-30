@@ -77,14 +77,14 @@ Wireframes were created for desktop and mobile.
 
 ### Existing features
  
-* Logo
+**Logo**
 
   * It is featured on all three pages on website and fully responsive. It allow users to go back to home page by clicking on it. 
 
 
   ![](docs/wireframes/logo.png)
 
-* Navigation bar
+**Navigation bar**
 
   * It is featured on all three pages on website, fully responsive and it includes links to Home page, Gallery and Contact page.  
   * Fixed on top of all three pages to allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via back button or scroll all the way up.
@@ -97,15 +97,13 @@ Wireframes were created for desktop and mobile.
 
   ![](docs/wireframes/desktopnavbar.png)
 
-* The Landing Page Image
+**The Landing Page Image**
 
   * One third of the home page consist of the image that provides users with an insight how the catacombs look like and has an overlay text with information where the tour guides are located and slogan to inspire the users to use tour guide services. 
 
   ![](docs/wireframes/hero.png)
    
-
-
-* About Section
+**About Section**
 
   * About section will allow users to find out some informations about the fortress and it's underground tunnels.
   * It consist of two boxes with the text that are responsive. On large screen sizes boxes are positioned horizontally and on smaller screen sizes vertically. 
@@ -114,8 +112,7 @@ Wireframes were created for desktop and mobile.
 
   ![](docs/wireframes/aboutsmallerscreen.png)
 
-
-* Tour Guide Section
+**Tour Guide Section**
 
   * This section will allow users to see where and when the tour guides take place, information about the price and it has an image that shows the whole fortress which will arouse the interest of user with its appearance.
   * This section is fully responsive, one box containig the text and the other image. On smaller screens they are positioned on top of each other and on larger screen beside one another. 
@@ -124,22 +121,21 @@ Wireframes were created for desktop and mobile.
 
   ![](docs/wireframes/tourguidesmallerscreen.png)
 
-
-* The Footer
+**The Footer**
 
   * The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
   * The footer is valuable to the user as it encourages them to keep connected via social media where they can be constantly updated.
 
   ![](docs/wireframes/footer.png)
 
-* Gallery page
+**Gallery page**
 
   * The gallery will give users the opportunity to see what the underground tunnels look like. 
   * This section is important because it will attract the attention of the visitors and motivate them to use the tour guide services. 
 
   ![](docs/wireframes/gallerydesktop.png)
 
-* Contact page
+**Contact page**
 
   * This page will allow the user to contact The Petrovaradin Catacombs, book a tour and find out the informations about it's adress, phone number, email and opening hours. 
   * The user will be asked to submit their full name, email address, phone, to choose if they want to book a tour, choose a date, write a message. After submiting the form, users will recieve confirmation message that submission is done succesfully.   
@@ -147,7 +143,8 @@ Wireframes were created for desktop and mobile.
 
   ![](docs/wireframes/contactpage.png)
 
-* Confirmation page
+**Confirmation page**
+
   * Visitors will be redirected to the page after they fill out the form and submit it. 
   * It is valuable to the user to get the confirmation that his query is received. 
 
@@ -226,11 +223,46 @@ Am I Responsive? - was used to show the website image on a range of devices.
   * Then click Save. After a few minutes you can see your live GitHub pages site is now deployed and the URL shown at the top of the page.
 
 
-
-
 ## Testing
 
-Testing was conducted throughout the website development with the help of Dev Tools. All the links and form have been checked if they are working correctly. 
+Testing was conducted throughout the website development with the help of Dev Tools. All the internal and external links and form have been checked if they are working correctly. External links are opening out in a new tab as they should and internal links lead to the intended destination. 
+
+Testing of form was carried out with trying out different variations:
+
+1. Trying to submit form without filling out any field. Form feedback indicated that name field should be filled out. 
+2. After filling the name and clicked on submit, popped out the message that email should be filled out.
+3. When filling out the email field with random data comes out warning that the field must include sign "@". 
+4. When filling out the right email information, and trying to submit,comes out the warning to fill out the phone number.
+5. After name, email and phone number is filled out it comes back that radio buttons must been selected.
+6. After all of the above is filled and clicked on submit, then comes warning that message must be written.
+7. When all is selected and filled except date, the form would be succesfully sent and it would redirect to confirmation page.
+8. Testing included all possible variations and each time form has reacted appropriately, that on of the fields should be filled out or button to be chosen. 
+
+**Supported screens and devices**
+
+The website has a responsive layout and supports:  
+* Large desktop 2560px x 1440px
+* 1920px wide and down 
+* 1220px wide and down¨
+* 768px wide and down
+* 480px and down until 260px. 
+
+The website has been checked on multiple browsers and mobile devices:
+
+* Google Chrome
+* Firefox
+* Opera
+* Microsoft Edge 
+* Samsung Galaxy S10+
+* Galaxy Fold
+* Samsung Galaxy S8
+* Samsung Galaxy S20 Ultra
+* Iphone 5/6/7/8
+* Iphone 12 Pro
+* Ipad Pro
+ 
+
+
 
 When requesting for peer code review on Slack, Code Institute chanel, I got one feedback from Hash who pointed out: 
 
