@@ -19,7 +19,7 @@ header {
     position: fixed;
     top: 0;
     background-color: #180b03;
-    width: 100%;
+    width: 100%; 
     padding-top: 1rem;
 }
 
@@ -94,8 +94,8 @@ a:link {
 }
 
 /* About section where content on larger screens is positioned in horizontal line
-     and on smaller screens in vertical line with the help of flexbox and flex wrap
-      */
+and on smaller screens in vertical line with the help of flexbox and flex wrap
+*/
 .about-section {
     min-height: 450px;
 }
@@ -145,7 +145,7 @@ a:link {
     color: #180b03;
 }
 
-img {
+.tg-img {
     max-width: 100%;
     border-radius: 25px;
 }
@@ -182,15 +182,14 @@ footer {
 /* Gallery section styled with flexbox in order to achieve columns and rows */
 .gallery {
     display: flex;
-    gap: 1rem;
+    width: 100%;
     flex-wrap: wrap;
-    padding: 3.5rem 1rem 1rem 1rem;
+    justify-content: center;
 }
 
 .gallery img {
-    max-width: 100%;
-    height: auto;
-    flex: 1;
+    width: 350px;
+    height: 260px;
 }
 
 /* 
@@ -252,11 +251,11 @@ input {
 }
 
 /* Reduce gap between nav bar and gallery on screens larger than 400px */
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 400px) {
     .gallery {
         padding: 1rem 1rem 1rem 1rem;
     }
-}
+} */
 
 /* Display only icons in navbar on smaller screens */
 @media screen and (max-width: 480px) {
@@ -280,10 +279,11 @@ input {
         bottom: 0;
         height: 100px;
     }
-    
+
     body {
         margin-bottom: 100px;
     }
+
     /* Larger font size */
     .logo {
         font-size: 150%;
