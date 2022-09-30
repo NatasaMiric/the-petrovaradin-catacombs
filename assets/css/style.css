@@ -269,4 +269,13 @@ Each content inside image on contact page
         justify-content: space-evenly;
         gap: 2rem;
     }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        height: 100px;
+    }
+    body {
+        margin-bottom: 100px;
+    }
 }
