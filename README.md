@@ -45,10 +45,9 @@ Visit the deployed site: [The Petrovaradin Catacombs](https://natasamiric.github
 ## User Stories
 
 * As a visiting user, I would like to gain some information about fortress.   
-* As a visiting user, I would like to find out when and where are guiding tours taking place.
-* As a visiting user, I would like to be able to book a tour.  
-* As a visiting user, I would like to be able to make a contact for business enquires.   
-* As a visiting user, I would like to receive confirmation that my form was sent successfully.
+* As a visiting user, I would like to find out when and where are guiding tours taking place. 
+* As a visiting user, I would like to be able to make a contact for business enquires and book a tour. 
+* As a visiting user, I would like to receive confirmation that my query was sent successfully.
     
 ## Design
 ### Colour Scheme
@@ -233,6 +232,12 @@ Am I Responsive? - was used to show the website image on a range of devices.
 
 Testing was conducted throughout the website development with the help of Dev Tools. All the links and form have been checked if they are working correctly. 
 
+When requesting for peer code review on Slack, Code Institute chanel, I got one feedback from Hash who pointed out: 
+
+* When filling out the form on mobile device, form fields get covered by footer
+
+* Too much empty space on contact page on desktop device.  
+
 ### Validator Testing
 
 The [W3C validator](https://validator.w3.org/) was used to validate HTML and [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate CSS.
@@ -254,9 +259,56 @@ The [W3C validator](https://validator.w3.org/) was used to validate HTML and [Ji
 
 ### Lighthouse
 
+Lighthouse runs a barrage of tests against the page, and then generates a report on how well the page did. 
+
+* Home page (desktop and mobile)
+
+![](docs/testing/lighthouse/desktophome.png)
+
+![](docs/testing/lighthouse/mobilehome.png)
+
+* Gallery page (desktop and mobile)
+
+![](docs/testing/lighthouse/desktopgallery.png)
+
+![](docs/testing/lighthouse/mobilegallery.png)
+
+* Contact page (desktop and mobile)
+
+![](docs/testing/lighthouse/desktopcontact.png)
+
+![](docs/testing/lighthouse/mobilecontact.png)
+
+* Confirmation page (desktop and mobile)
+
+![](docs/testing/lighthouse/desktopconfirmation.png)
+
+![](docs/testing/lighthouse/mobileconfirmation.png)
+
 ### Testing User Stories
+* As a visiting user, I would like to gain some information about fortress
 
+  * On Home page in About section user can gain more information about the fortress and underground tunnels.
 
+  ![](docs/wireframes/aboutdesktop.png)
+
+* As a visiting user, I would like to find out when and where are guiding tours taking place.
+
+  * Home page contains Tour guide section where the user can see time and location where the tours are happening, as well as price. 
+
+  ![](docs/wireframes/tourguidedesktop.png) 
+
+* As a visiting user, I would like to be able to make a contact for business enquires and book a tour.  
+
+  * The Contact page contains a form where the user can input his name,email, phone, choose to book a tour, choose a date and write a message to The Petrovaradin Catacombs. 
+
+  ![](docs/wireframes/contactpage.png)
+
+* As a visiting user, I would like to receive confirmation that my query was sent successfully.
+
+  * When submiting his query on the Contact page, user will be redirected to a confirmation page where will he receive a message that it is succesfully sent and that the respond will be sent as soon as posible. 
+
+  ![](docs/wireframes/confirmation.png)
 
 ### Fixed Bugs
 
