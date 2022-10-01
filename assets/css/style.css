@@ -189,7 +189,7 @@ footer {
 
 .gallery>img {
     width: 350px;
-    min-height: 250px;
+    min-height: 240px;
     padding: 1%;
 }
 
@@ -294,7 +294,7 @@ input {
 
     .gallery>img {
         width: 520px;
-        height: 330px;
+        height: 360px;
     }
 }
 
@@ -309,11 +309,11 @@ input {
 /* Expands the height of the map and image on contact page on larger screens */
 @media screen and (min-width: 705px) {
 
-    .map {
-        height: 264px;
+    .map {        
+        height: 300px;
     }
 
     .contact-image {
-        height: 800px;
+        height: 778px;
     }
 }

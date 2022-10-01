@@ -112,7 +112,7 @@ Wireframes were created for desktop and mobile.
 **Tour Guide Section**
 
   * This section will allow users to see where and when the tour guides take place, information about the price and it has an image that shows the whole fortress which will arouse the interest of user with its appearance.
-  * This section is fully responsive, one box containig the text and the other image. On smaller screens they are positioned on top of each other and on larger screen beside one another. 
+  * This section is fully responsive, one box containing the text and the other image. On smaller screens they are positioned on top of each other and on larger screen beside one another. 
 
   ![](docs/wireframes/tourguidedesktop.png)
 
@@ -128,7 +128,7 @@ Wireframes were created for desktop and mobile.
 **Gallery page**
 
   * The gallery will give users the opportunity to see what the underground tunnels look like. 
-  * This section is important because it will attract the attention of the visitors and motivate them to use the tour guide services. 
+  * This section is important because it will attract the attention of the users and motivate them to use the tour guide services. 
 
   ![](docs/wireframes/gallerydesktop.png)
   ![](docs/wireframes/gallerymobile.png)
@@ -137,14 +137,14 @@ Wireframes were created for desktop and mobile.
 
   * This page will allow the user to contact The Petrovaradin Catacombs, book a tour and find out the informations about it's adress, phone number, email and opening hours. 
   * The user will be asked to submit their full name, email address, phone, to choose if they want to book a tour, choose a date, write a message. After submiting the form, users will recieve confirmation message that submission is done succesfully.   
-  * Responsive form and contact information are positioned separately in two boxes and are overlaying the image that is covering the whole page. On larger screen sizes they are positioned horizontaly and on small screens verticaly. 
+  * Responsive form and contact information are positioned separately in two boxes and are overlaying the image that is covering the whole page and below is a map that show location of fortress. On larger screen sizes boxes are positioned horizontaly and on small screens verticaly. 
 
   ![](docs/wireframes/contactdesktop.png)
   ![](docs/wireframes/contactmobile.png)
 
 **Confirmation page**
 
-  * Visitors will be redirected to the page after they fill out the form and submit it. 
+  * Users will be redirected to the page after they fill out the form and submit it. 
   * It is valuable to the user to get the confirmation that his query is received. 
 
   ![](docs/wireframes/confirmation.png)  
@@ -190,124 +190,10 @@ Am I Responsive? - was used to show the website image on a range of devices.
 
 [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - for checking the contrast ratio between text and background color.
 
-
-
 ## Testing
 
-Testing was conducted throughout the website development with the help of Dev Tools. All the internal and external links and form have been checked if they are working correctly. External links are opening out in a new tab as they should and internal links lead to the intended destination. 
+Please see [testing.md](TESTING.md) for all testing performed.
 
-Testing of form was carried out with trying out different variations:
-
-1. Trying to submit form without filling out any field. Form feedback indicated that name field should be filled out. 
-2. After filling the name and clicked on submit, popped out the message that email should be filled out.
-3. When filling out the email field with random data comes out warning that the field must include sign "@". 
-4. When filling out the right email information, and trying to submit,comes out the warning to fill out the phone number.
-5. After name, email and phone number is filled out it comes back that radio buttons must been selected.
-6. After all of the above is filled and clicked on submit, then comes warning that message must be written.
-7. When all is selected and filled except date, the form would be succesfully sent and it would redirect to confirmation page.
-8. Testing included all possible variations and each time form has reacted appropriately, that on of the fields should be filled out or button to be chosen. 
-
-**Supported screens and browsers**
-
-The website has a responsive layout and supports:  
-* 1920px wide and down 
-* 1220px wide and down¨
-* 768px wide and down
-* 480px and down until 280px. 
-
-The website has been checked on multiple browsers and mobile devices:
-
-* Google Chrome
-* Firefox
-* Opera
-* Microsoft Edge 
-* Samsung Galaxy S10+
-* Galaxy Fold
-* Samsung Galaxy S8
-* Samsung Galaxy S20 Ultra
-* Iphone 5/6/7/8
-* Iphone 12 Pro
-* Ipad Pro
-
-When requesting for peer code review on Slack, Code Institute chanel, I got one feedback from Hash who pointed out: 
-
-* When filling out the form on mobile device, form fields get covered by footer
-
-* Too much empty space on contact page on desktop device  
-
-### Validator Testing
-
-The [W3C validator](https://validator.w3.org/) was used to validate HTML and [Jigsaw](https://jigsaw.w3.org/css-validator/) to validate CSS.
-
-* HTML
-
-  [Home page](docs/testing/validator/w3c-index.html.png)
-
-  [Gallery](docs/testing/validator/w3c-gallery.html.png)
-
-
-  [Contact page](docs/testing/validator/w3c-contact.html.png)
-
-  [Confirmation page](docs/testing/validator/w3c-confirmation.png)
-
-* CSS
-
-  [CSS](docs/testing/validator/w3c-css.png)
-
-### Lighthouse
-
-Lighthouse runs a barrage of tests against the page, and then generates a report on how well the page did. 
-
-* Home page (desktop and mobile)
-
-![](docs/testing/lighthouse/desktophome.png)
-
-![](docs/testing/lighthouse/mobilehome.png)
-
-* Gallery page (desktop and mobile)
-
-![](docs/testing/lighthouse/desktopgallery.png)
-
-![](docs/testing/lighthouse/mobilegallery.png)
-
-* Contact page (desktop and mobile)
-
-![](docs/testing/lighthouse/desktopcontact.png)
-
-![](docs/testing/lighthouse/mobilecontact.png)
-
-* Confirmation page (desktop and mobile)
-
-![](docs/testing/lighthouse/desktopconfirmation.png)
-
-![](docs/testing/lighthouse/mobileconfirmation.png)
-
-### Testing User Stories
-* As a visiting user, I would like to gain some information about fortress
-
-  * On Home page in About section user can gain more information about the fortress and underground tunnels.
-
-  ![](docs/wireframes/aboutdesktop.png)
-
-* As a visiting user, I would like to find out when and where are guiding tours taking place.
-
-  * Home page contains Tour guide section where the user can see time and location where the tours are happening, as well as price. 
-
-  ![](docs/wireframes/tourguidedesktop.png) 
-
-* As a visiting user, I would like to be able to make a contact for business enquires and book a tour.  
-
-  * The Contact page contains a form where the user can input his name,email, phone, choose to book a tour, choose a date and write a message to The Petrovaradin Catacombs. 
-
-  ![](docs/wireframes/contactpage.png)
-
-* As a visiting user, I would like to receive confirmation that my query was sent successfully.
-
-  * When submiting his query on the Contact page, user will be redirected to a confirmation page where will he receive a message that it is succesfully sent and that the respond will be sent as soon as posible. 
-
-  ![](docs/wireframes/confirmation.png)
-
-### Fixed Bugs
 ## Deployment
 
 * via gitpod
@@ -348,6 +234,7 @@ Lighthouse runs a barrage of tests against the page, and then generates a report
 * [Kewin Powell](https://www.youtube.com/watch?v=u044iM9xsWU&t=194s) tutorials were used for learning and understanding of flexbox and background images.  
 
 
+
 ### Content
 
 * Content from the website was taken from [Viator](https://www.viator.com/Belgrade-attractions/Petrovaradin-Fortress/d22817-a24438?mcid=28353&tsem=true&supci=-804742770&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=g&supti=kwd-336495613121&suplp=1012212&supli=21213&m=28353&supag=50556324189&supsc=kwd-336495613121&supai=275935289408&supap=&supdv=c&supnt=nt%3Ag&suplp=1012212&supli=21213&supti=kwd-336495613121&tsem=true&supci=kwd-336495613121&supap1=&supap2=&gclid=Cj0KCQjwpeaYBhDXARIsAEzItbHDPdS4UMAAqpOsE34mK4aeH9zVAq6MDdV9DoweoVyIYS2qPRJmbYMaAqk9EALw_wcB) and [Atlas Obscura](https://www.atlasobscura.com/places/catacombs-of-petrovaradin-fortress).
@@ -367,5 +254,9 @@ The photos were taken from:
 
 ###  Acknowledgments
 
+I would like to thank the following people: 
+* My mentor Rohit Sharma who guided me throughout the creation of the project.
+* My fellow students who took a time to review my code: Jacob Welsh, Niclas Tanskanen, Roger Pfäffli, Callum Dennis, Gary Gant and Hash. 
+* Gary Gant who helped me with solution for the text on hero image. 
 
 
