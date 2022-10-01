@@ -9,7 +9,7 @@ Visit the deployed site: [The Petrovaradin Catacombs](https://natasamiric.github
 
 ## Contents
 
-  * [User Stories](#User-Stories)
+* [User Stories](#User-Stories)
 
 * [Design](#Design)
   * [Colour Scheme](#Colour-Scheme)
@@ -23,16 +23,13 @@ Visit the deployed site: [The Petrovaradin Catacombs](https://natasamiric.github
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
-
-* [Deployment](#Deployment)
- 
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used) 
 
 * [Testing](#Testing)
   * [Validator Testing](#Validator-Testing)
   * [Unfixed Bugs](#Unfixed-Bugs)
     
- 
+ * [Deployment](#Deployment)
 
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
@@ -119,7 +116,7 @@ Wireframes were created for desktop and mobile.
 
   ![](docs/wireframes/tourguidedesktop.png)
 
-  ![](docs/wireframes/tourguidesmallerscreen.png)
+  ![](docs/wireframes/tourguidemobile.png)
 
 **The Footer**
 
@@ -134,6 +131,7 @@ Wireframes were created for desktop and mobile.
   * This section is important because it will attract the attention of the visitors and motivate them to use the tour guide services. 
 
   ![](docs/wireframes/gallerydesktop.png)
+  ![](docs/wireframes/gallerymobile.png)
 
 **Contact page**
 
@@ -141,7 +139,8 @@ Wireframes were created for desktop and mobile.
   * The user will be asked to submit their full name, email address, phone, to choose if they want to book a tour, choose a date, write a message. After submiting the form, users will recieve confirmation message that submission is done succesfully.   
   * Responsive form and contact information are positioned separately in two boxes and are overlaying the image that is covering the whole page. On larger screen sizes they are positioned horizontaly and on small screens verticaly. 
 
-  ![](docs/wireframes/contactpage.png)
+  ![](docs/wireframes/contactdesktop.png)
+  ![](docs/wireframes/contactmobile.png)
 
 **Confirmation page**
 
@@ -191,36 +190,6 @@ Am I Responsive? - was used to show the website image on a range of devices.
 
 [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) - for checking the contrast ratio between text and background color.
 
-## Deployment
-
-* via gitpod
-  * Log into GitHub.
-  * Make a repository
-  * Click the green button close to the top of the page that  says Gitpod.
-  * After letting Gitpod load an alert pops up on the top of the screen, click cancel.
-  * Then click the button that says More Actions.
-  * Hereafter click Open in Browser.
-  * Now right click with your mouse over the big box on the left that has your repository name over it.
-  * Click new file.
-  * Then make an index.html file.
-  * Go to the top of the index file and click ! and enter. This will make a start template.
-  * Make a basic structure for your index page.
-  * Click on terminal at the bottom of the page.
-  * Write 'git add .'
-  * Then for your first commit write 'git commit -m "Initial commit".
-  * Hereafter write 'git push'.
-  * Your code have now been pushed back and saved on your GitHub repository.
-
-  The live link can be found here: https://natasamiric.github.io/the-petrovaradin-catacombs/
-
-* via GitHub pages
-  * Log into GitHub.
-  * Go to the repositories.
-  * Then take this project LunationDesign.
-  * Go to the settings link.
-  * Then click on the pages link that is found on the navigations bar on the left side.
-  * Check the source section on the page, and choose main instead of none.
-  * Then click Save. After a few minutes you can see your live GitHub pages site is now deployed and the URL shown at the top of the page.
 
 
 ## Testing
@@ -339,6 +308,36 @@ Lighthouse runs a barrage of tests against the page, and then generates a report
   ![](docs/wireframes/confirmation.png)
 
 ### Fixed Bugs
+## Deployment
+
+* via gitpod
+  * Log into GitHub.
+  * Make a repository
+  * Click the green button close to the top of the page that  says Gitpod.
+  * After letting Gitpod load an alert pops up on the top of the screen, click cancel.
+  * Then click the button that says More Actions.
+  * Hereafter click Open in Browser.
+  * Now right click with your mouse over the big box on the left that has your repository name over it.
+  * Click new file.
+  * Then make an index.html file.
+  * Go to the top of the index file and click ! and enter. This will make a start template.
+  * Make a basic structure for your index page.
+  * Click on terminal at the bottom of the page.
+  * Write 'git add .'
+  * Then for your first commit write 'git commit -m "Initial commit".
+  * Hereafter write 'git push'.
+  * Your code have now been pushed back and saved on your GitHub repository.
+
+  The live link can be found here: https://natasamiric.github.io/the-petrovaradin-catacombs/
+
+* via GitHub pages
+  * Log into GitHub.
+  * Go to the repositories.
+  * Then take this project LunationDesign.
+  * Go to the settings link.
+  * Then click on the pages link that is found on the navigations bar on the left side.
+  * Check the source section on the page, and choose main instead of none.
+  * Then click Save. After a few minutes you can see your live GitHub pages site is now deployed and the URL shown at the top of the page.
 
 
 ## Credits
