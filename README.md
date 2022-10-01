@@ -257,7 +257,7 @@ I would like to thank the following people:
 * My mentor Rohit Sharma who guided me throughout the creation of the project.
 * Ed Bradley who provided me with some great advices.
 * My fellow students who took a time to review my code: Jacob Welsh, Niclas Tanskanen, Roger Pfäffli, Callum Dennis, Gary Gant and Hash. 
-* Gary Gant who helped me with solution for the text on hero image. 
+* Gary Gant who helped me with advice to add text shadow for the text on hero image. 
 * [Kera Cudmore](https://github.com/kera-cudmore) whos Readme guide was a great help https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#Testing-User-Stories 
 
 
