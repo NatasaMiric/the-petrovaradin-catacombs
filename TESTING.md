@@ -1,3 +1,5 @@
+# TESTING
+
 Testing was conducted throughout the website development with the help of Dev Tools. All the internal and external links and form have been checked if they are working correctly. External links are opening out in a new tab as they should and internal links lead to the intended destination. 
 
 Testing of form was carried out with trying out different variations:
@@ -121,3 +123,4 @@ Lighthouse runs a barrage of tests against the page, and then generates a report
 1. Images on Gallery page did not look good on larger screen devices so I set up the multiple media queries in order to achieve good resolution of images on a different screen sizes.
 2. Contact page on larger screens was containing large empty space so I included also a map to fill out the space and that also required adjustment with the help of media queries in order to look good on different screen sizes. I expanded the width and height of the hero image and the map.  
 3. Cover text on hero image on Home page was not visible enough so I put a shadow and bold attributes. 
+4. In order to have more space on small screen sizes, I had to remove fixed position for footer.  

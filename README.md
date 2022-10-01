@@ -225,15 +225,13 @@ Please see [testing.md](TESTING.md) for all testing performed.
   * Check the source section on the page, and choose main instead of none.
   * Then click Save. After a few minutes you can see your live GitHub pages site is now deployed and the URL shown at the top of the page.
 
-
 ## Credits
+
 ### Code Used
 
 * Header and footer were created using solutions from [Love Running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions). 
 
 * [Kewin Powell](https://www.youtube.com/watch?v=u044iM9xsWU&t=194s) tutorials were used for learning and understanding of flexbox and background images.  
-
-
 
 ### Content
 
@@ -255,8 +253,11 @@ The photos were taken from:
 ###  Acknowledgments
 
 I would like to thank the following people: 
+
 * My mentor Rohit Sharma who guided me throughout the creation of the project.
+* Ed Bradley who provided me with some great advices.
 * My fellow students who took a time to review my code: Jacob Welsh, Niclas Tanskanen, Roger Pfäffli, Callum Dennis, Gary Gant and Hash. 
 * Gary Gant who helped me with solution for the text on hero image. 
+* [Kera Cudmore](https://github.com/kera-cudmore) whos Readme guide was a great help https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#Testing-User-Stories 
 
 
