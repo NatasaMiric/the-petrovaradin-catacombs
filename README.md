@@ -241,11 +241,10 @@ Testing of form was carried out with trying out different variations:
 **Supported screens and browsers**
 
 The website has a responsive layout and supports:  
-* Large desktop 2560px x 1440px
 * 1920px wide and down 
 * 1220px wide and down¨
 * 768px wide and down
-* 480px and down until 260px. 
+* 480px and down until 280px. 
 
 The website has been checked on multiple browsers and mobile devices:
 

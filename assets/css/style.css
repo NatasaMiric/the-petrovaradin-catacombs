@@ -19,7 +19,7 @@ header {
     position: fixed;
     top: 0;
     background-color: #180b03;
-    width: 100%; 
+    width: 100%;
     padding-top: 1rem;
 }
 
@@ -145,9 +145,8 @@ and on smaller screens in vertical line with the help of flexbox and flex wrap
     color: #180b03;
 }
 
-.tg-img {
-    max-width: 100%;
-    border-radius: 25px;
+img {
+    width: 100%;
 }
 
 .tg-text {
@@ -184,13 +183,14 @@ footer {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: center;   
+    justify-content: center;
+
 }
 
-.gallery img {
+.gallery>img {
     width: 350px;
-    height: 260px;
-    padding: 1%;    
+    min-height: 250px;
+    padding: 1%;
 }
 
 /* 
@@ -210,6 +210,8 @@ positioned verticaly.
     width: 100%;
     min-height: 674px;
     gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .form-container {
@@ -245,7 +247,7 @@ input {
 
 .map {
     width: 100%;
-    min-height: auto;
+    height: 200px;
 }
 
 /* Confirmation page */
@@ -257,13 +259,6 @@ input {
 .confirmation-message p {
     text-align: center;
 }
-
-/* Reduce gap between nav bar and gallery on screens larger than 400px */
-/* @media screen and (min-width: 400px) {
-    .gallery {
-        padding: 1rem 1rem 1rem 1rem;
-    }
-} */
 
 /* Display only icons in navbar on smaller screens */
 @media screen and (max-width: 480px) {
@@ -295,5 +290,30 @@ input {
     /* Larger font size */
     .logo {
         font-size: 150%;
+    }
+
+    .gallery>img {
+        width: 520px;
+        height: 330px;
+    }
+}
+
+/* Adjustment of size for gallery images on min-width: 768px screens */
+@media screen and (min-width: 768px) {
+    .gallery>img {
+        width: 698px;
+        height: 437px;
+    }
+}
+
+/* Expands the height of the map and image on contact page on larger screens */
+@media screen and (min-width: 705px) {
+
+    .map {
+        height: 264px;
+    }
+
+    .contact-image {
+        height: 800px;
     }
 }
